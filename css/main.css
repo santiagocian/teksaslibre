@@ -1,0 +1,94 @@
+/* UNIVERSAL STYLING */
+*{
+	margin: 0;
+}
+
+/* BEGIN NAVBAR STYLING */
+.navbar-default {
+	border-color: red;
+	
+}
+.navbar-brand {
+	font-weight: bold;
+	font-size: 25px;
+
+}
+.navbar {
+	background-color: #090b0e;
+
+}
+
+
+
+
+@media (max-width:1200px) {
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+	.dropdown-menu {
+	    display: none;
+	    position: absolute;
+	    background-color: #f9f9f9;
+	    min-width: 160px;
+	    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	    padding: 12px 16px;
+	    z-index: 1;
+	}
+
+	.dropdown:hover .dropdown-menu {
+	    display: block;
+	}
+}
+
+
+/* Carousel*/
+.btn {
+	color: #FFFFFF;
+	background-color: #e32636;
+	border: 1px solid white;
+}
+
+.btn:hover {
+	color: #8B9DC3;
+}
+
+.carousel-caption{
+
+}
+
+
+
+img {
+    object-fit: cover;
+}
+
+.myCarouselTop {
+	margin-top: 40px;
+}
+
+/*BEGIN ARTICLE STYLING*/
+.articleTop {
+	margin-top: 40px;
+}
+
+/*BEGIN FOOTER STYLING*/
+.footer-pink {
+	background-color: #fce5e7;
+}
+
+.footer-black {
+	background-color: #090b0e;
+}
+
+.social{
+	position: relative;
+}
+.social li a i {
+	font-size: 16px;
+	margin: 0 0 0 5px;
+	color: #FFFFFF !important;
+	text-decoration: none;
+	position: absolute;
+
+}
